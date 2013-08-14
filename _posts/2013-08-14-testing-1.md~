@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Testing 1"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+{% include themes/test.html %}
+salam
