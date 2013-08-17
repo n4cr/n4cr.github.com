@@ -52,15 +52,19 @@
         {{ content }}
       </div>
       <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
 
     </div>
 
+      <footer>
+        <div>
+          <a class="social twitter" href="http://twitter.com/n4cr/"></a>
+          <a class="social github" href="http://github.com/nasir5959"></a>
+          <a class="social vimeo" href="https://vimeo.com/user6037283"></a>
+        </div>
+        <p>&copy; {{ site.time | date: '%Y' }} نصیر شادروان ‫-‬
+پیاده‌سازی شده با <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a> و <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
     {% include JB/analytics %}
   </body>
 </html>

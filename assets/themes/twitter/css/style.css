@@ -67,3 +67,29 @@ body{font-family:Mitra, Nassim, "Baskerville", Georgia, Times, serif;font-size:2
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+footer {
+  border: 1px solid #d4d4d4;
+  background-color: #fafafa;
+  text-align:center;
+  padding:40px 0;
+}
+
+.social {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  text-indent: -999px;
+}
+
+.twitter {
+  background: url(../img/twitter-64-black.png) no-repeat;   
+} 
+
+.github {
+  background: url(../img/github-64-black.png) no-repeat;   
+} 
+
+.vimeo {
+  background: url(../img/vimeo-64-black.png) no-repeat;   
+} 
