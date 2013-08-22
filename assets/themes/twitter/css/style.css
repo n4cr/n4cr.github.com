@@ -1,7 +1,15 @@
 @font-face{font-family:Mitra;font-weight:normal;font-style:normal;src:url("../font/BMitra-Regular.eot");src:url("../font/BMitra-Regular.eot?#iefix") format("embedded-opentype"),url("../font/BMitra-Regular.woff") format("woff"),url("../font/BMitra-Regular.ttf") format("truetype"),url("../font/BMitra-Regular.svg#Mitra") format("svg")}@font-face{font-family:Mitra;font-weight:bold;font-style:normal;src:url("../font/BMitra-Bold.eot");src:url("../font/BMitra-Bold.eot?#iefix") format("embedded-opentype"),url("../font/BMitra-Bold.woff") format("woff"),url("../font/BMitra-Bold.ttf") format("truetype"),url("../font/BMitra-Bold.svg#Mitra") format("svg")}@font-face{font-family:Nassim;font-weight:normal;font-style:normal;src:url("../font/nassim-regular.eot");src:url("../font/nassim-regular.eot?#iefix") format("embedded-opentype"),url("../font/nassim-regular.woff") format("woff"),url("../font/nassim-regular.ttf") format("truetype"),url("../font/nassim-regular.svg#Nassim") format("svg")}@font-face{font-family:Nassim;font-weight:bold;font-style:normal;src:url("../font/nassim-bold.eot");src:url("../font/nassim-bold.eot?#iefix") format("embedded-opentype"),url("../font/nassim-bold.woff") format("woff"),url("../font/nassim-bold.ttf") format("truetype"),url("../font/nassim-bold.svg#Nassim") format("svg")}
 
-body{font-family:Mitra, Nassim, "Baskerville", Georgia, Times, serif;font-size:20px;-webkit-font-smoothing:antialiased;background-color:#f9f7f4;color:#222;position:relative}
+body{
+     font-family:Mitra, Nassim, "Baskerville", Georgia, Times, serif;
+     font-size:20px;-webkit-font-smoothing:antialiased;
+     background-color:#f9f7f4;color:#222;position:relative;
+     line-height:1.5;
+}
 
+li {
+     line-height:1.5;
+}
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -93,3 +101,4 @@ footer {
 .vimeo {
   background: url(../img/vimeo-64-black.png) no-repeat;   
 } 
+
